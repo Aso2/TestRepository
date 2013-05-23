@@ -24,9 +24,7 @@ public class Account2 {
 
     public double getBalance()
     {
-        // returnerfjsjhfjkshk
-        //fjakfadet igen
-        // bare en test fkahkjfahkjfhakhfor at 
+        
         // en test mere
         return balance;
     }
