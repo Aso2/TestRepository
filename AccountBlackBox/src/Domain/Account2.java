@@ -23,11 +23,20 @@ public class Account2 {
         accountType = accType;
     }
 
+    public Account2() {
+      //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public double getBalance()
     {
         return balance;
     }
-
+    
+    public long accountNo()
+    {
+        return accountNo;
+    }
+    
 
     //Precondition:
     // None
