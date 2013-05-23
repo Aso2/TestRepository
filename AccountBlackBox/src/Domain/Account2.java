@@ -14,6 +14,7 @@ public class Account2 {
     private double balance;
     private long accountNo;
     private int accountType;
+    
 
     public Account2(double bal, long acc, int accType)
     {
@@ -24,8 +25,6 @@ public class Account2 {
 
     public double getBalance()
     {
-        //jjj
-        // en aatest mere
         return balance;
     }
 
@@ -54,6 +53,10 @@ public class Account2 {
           }
         }
         return returnVal;
+    }
+    
+    public void deposit(double amount){
+        balance = balance + amount;  
     }
 
     //Precondition:
@@ -94,4 +97,5 @@ public double calculateAnnualInterest(double adding, double interest, double fee
             }
         return annualInterest;
     }
+
 }
