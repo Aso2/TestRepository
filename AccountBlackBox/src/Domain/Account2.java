@@ -24,7 +24,7 @@ public class Account2 {
 
     public double getBalance()
     {
-        
+        //jjj
         // en aatest mere
         return balance;
     }
