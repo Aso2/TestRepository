@@ -57,7 +57,7 @@ public class Account2 {
     
     public void deposit(double amount){
         balance = balance + amount;  
-    }
+    } 
 
     //Precondition:
     // adding >= 0
@@ -97,5 +97,4 @@ public double calculateAnnualInterest(double adding, double interest, double fee
             }
         return annualInterest;
     }
-
 }
