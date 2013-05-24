@@ -64,9 +64,11 @@ public class Account2 {
         return returnVal;
     }
     
-    public void deposit(double amount){
+    public double deposit(double amount){
         balance = balance + amount;  
+        return balance; 
     } 
+    
 
     //Precondition:
     // adding >= 0
@@ -106,4 +108,13 @@ public double calculateAnnualInterest(double adding, double interest, double fee
             }
         return annualInterest;
     }
+
+    double getBalance(double amount) {
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    
+        balance = balance + amount ;
+        return amount; 
+    }
+
+   
 }

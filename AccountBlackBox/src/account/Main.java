@@ -5,8 +5,6 @@
 
 package account;
 
-import Domain.Account2;
-
 /**
  *
  * @author anri
@@ -18,9 +16,6 @@ public class Main {
      */
     public static void main(String[] args) {
      
-        Account2 Aso  = new Account2(); 
-        Aso.deposit(2000);
-          System.out.println(Aso.getBalance());
     }
  
 }
